@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200;300&display=swap');
+
+*{
+  font-family: 'REM', sans-serif;
+  
+}
+.profile-setting{
+  width: 430px;
+  height: 400px;border-radius: 20px 20px 0px 0px ;
+  background: #9DB2BF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  position: absolute;
+  bottom: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-size: 20px; */
+}
+.row1 .info{
+  width: 350px;
+}
+.pf img{
+  height: 60px;
+  border: 3px solid white;
+}
+.line{
+  margin-top: 20px;
+  width: 350px;
+  height: 3px;
+  background: #27374D;
+}
+.row2{
+  width: 350px;
+  margin-top: 30px;
+  display: flex;
+  gap: 90px;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row3{
+  width: 350px;
+  margin-top: 70px;
+  padding: 0%;
+  display: flex;
+  gap: 80px;
+}
+.icons-title{
+  font-size: 18px;
+}
+.name{
+  font-family: 'REM', sans-serif;
+}
+a{
+  color: #27374D;
+}
+

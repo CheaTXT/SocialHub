@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200;300&display=swap');
+
+*{
+  font-family: 'REM', sans-serif;
+}
+.container{
+  background: #27374D;
+}
+.post{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DDE6ED;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 25px;
+  font-size: 20px;
+}
+.post-field{
+  margin-top: 30px;
+  width: 400px;
+  height: 500px;
+  background: #9DB2BF;
+  border-radius: 10px;
+}
+.your-pf{
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  
+  margin-top: 10px;
+}
+.my-pf{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.name{
+  font-family: 'REM', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0;
+}
+.img img{
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  border: 3px solid white;
+  background-color: #DDE6ED; ;
+}
+.friend{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #DDE6ED;
+}
+.text-field{
+  padding-left: 25px;
+}
+.text-field input{
+  border: none;
+  background: none;
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+}
+.multi-post{
+  font-size: 18px;
+  margin-top: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.posted{
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

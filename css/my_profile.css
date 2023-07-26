@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200;300&display=swap');
+
+.container{
+  position: relative;
+}
+.back-btn{
+  padding-left: 30px;
+}
+.cover img{
+  width: 430px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+.profile img{
+  position: absolute;
+  left: 30px;
+  top: 270px;
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  padding: 0;
+  border: 2px solid white;
+}
+.info{
+  margin: 0;
+}
+.name{
+  font-family: 'REM', sans-serif;
+}
+a{
+  color: black;
+}
+.action{
+  background-color: #9DB2BF;
+  width: 430px;
+  height: 160px;
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+}
+.name{
+  padding-left: 115px;
+}
+.edit-btn{
+  width: 80px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #DDE6ED;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.count{
+  margin-top: 20px;
+  /* background-color: antiquewhite; */
+  width: 430px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.counter{
+  /* background-color: #DDE6ED; */
+  width: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical{
+  width: 1.5px;
+  height: 50px;
+  background: black;
+}
+.posted{
+  margin-top: 5px;
+  width: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.first-pic{
+  width: 150px;
+  height: 138px;
+}
+img{
+  padding-left: 0px;
+  width: 150px;
+  height: 138px;
+}
